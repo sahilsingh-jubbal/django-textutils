@@ -88,4 +88,4 @@ def analyse(request):
 
     elif(check1 == 'off' and check2 == 'off' and check3 == 'off' and check4 == 'off' and check5 == 'off'):
         return HttpResponse("<h1><font color='red'>Error</font></h1>")
-    return render(request,'https://sahilsingh-jubbal.github.io/django-textutils/textutils2/templates/analyse.html',wow)
+    return render(request,'/templates/analyse.html',wow)
